@@ -1,0 +1,6 @@
+22-05-15 11:22:26 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\train_rnn.py:70 - INFO ] Building the model of Dual-Path-RNN
+22-05-15 11:22:26 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\train_rnn.py:73 - INFO ] Building the optimizer of Dual-Path-RNN
+22-05-15 11:22:26 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\train_rnn.py:76 - INFO ] Building the dataloader of Dual-Path-RNN
+22-05-15 11:22:26 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\train_rnn.py:79 - INFO ] Train Datasets Length: 2, Val Datasets Length: 2
+22-05-15 11:22:26 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\train_rnn.py:89 - INFO ] Building the Trainer of Dual-Path-RNN
+22-05-15 11:22:26 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\trainer\trainer_Dual_RNN.py:40 - INFO ] Load Nvida GPU .....

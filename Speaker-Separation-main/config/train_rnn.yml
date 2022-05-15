@@ -26,15 +26,15 @@ datasets:
 #### network structures
 Dual_Path_RNN:
   in_channels: 8
-  out_channels: 2
-  hidden_channels: 4
-  kernel_size: 1
+  out_channels: 4
+  hidden_channels: 128
+  kernel_size: 2
   rnn_type: LSTM
   norm: ln
   dropout: 0
   bidirectional: true
-  num_layers: 1
-  K: 1
+  num_layers: 3
+  K: 50
   num_spks: 2
 
 #### training settings: learning rate scheme, loss

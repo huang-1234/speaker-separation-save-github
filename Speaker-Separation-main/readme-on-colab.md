@@ -17,11 +17,11 @@ s1和s2分別放不同speaker的音檔，mix放疊加後的音檔。同一筆tra
 李弘毅老師上課提供的資料集：[link](https://drive.google.com/file/d/1g3ObZnCNtdYMLYe-YNwbjkMlUrFszjxY/view)
 
 ## 訓練流程
-1. 產生訓練用的scp檔并安装依赖
+1. 產生訓練用的scp檔
 ```
-  python create_scp.py
-  python create_sample_scp.py  # 简单数据集 推荐先使用这个
-  pip3 install -r requirements.txt
+  ! python create_scp.py
+  ! python create_sample_scp.py
+  ! pip3 install -r requirements.txt
 ```
 需要手動修改資料集所在目錄。
 
@@ -31,7 +31,7 @@ s1和s2分別放不同speaker的音檔，mix放疊加後的音檔。同一筆tra
 
 3. 訓練模型
 ```
-  python train_rnn.py --opt config/Dual_RNN/train.yml
+  python train_rnn.py --opt config/Dual_RNN/train_rnn.yml
 ```
 
 ## Inference

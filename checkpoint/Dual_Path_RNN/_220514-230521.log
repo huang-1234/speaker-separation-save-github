@@ -1,0 +1,3 @@
+22-05-14 23:05:21 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\train_rnn.py:70 - INFO ] Building the model of Dual-Path-RNN
+22-05-14 23:05:21 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\train_rnn.py:73 - INFO ] Building the optimizer of Dual-Path-RNN
+22-05-14 23:05:21 [E:\e\pcData\Study\bishe\code\speaker-separation-save-github\Speaker-Separation-main\train_rnn.py:76 - INFO ] Building the dataloader of Dual-Path-RNN

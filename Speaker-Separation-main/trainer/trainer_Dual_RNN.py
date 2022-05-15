@@ -33,11 +33,15 @@ class Trainer(object):
         self.checkpoint = opt['train']['path']
         self.name = opt['name']
 
+        # os.environ['CUDA_LAUNCH_BLOCKING'] = '1'
+
+        # if opt['train']['gpuid']:
         if opt['train']['gpuid']:
             self.logger.info('Load Nvida GPU .....')
             self.device = torch.device(
                 'cuda:{}'.format(opt['train']['gpuid'][0]))
             self.gpuid = opt['train']['gpuid']
+            print('self.device', self.device)
             self.dualrnn = Dual_RNN.to(self.device)
             self.logger.info(
                 'Loading Dual-Path-RNN parameters: {:.3f} Mb'.format(check_parameters(self.dualrnn)))

@@ -87,6 +87,7 @@ def train():
 
     # build trainer
     logger.info('Building the Trainer of Dual-Path-RNN')
+    print('opt', opt)
     trainer = trainer_Dual_RNN.Trainer(train_dataloader, val_dataloader, Dual_Path_RNN, optimizer, scheduler, opt)
     trainer.run()
 

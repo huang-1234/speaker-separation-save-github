@@ -3,11 +3,12 @@ import torch.nn as nn
 
 
 def handle_scp(scp_path):
+    # print('scp_path', scp_path)
     '''
     Read scp file script
-    input: 
+    input:
           scp_path: .scp file's file path
-    output: 
+    output:
           scp_dict: {'key':'wave file path'}
     '''
     scp_dict = dict()
