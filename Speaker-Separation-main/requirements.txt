@@ -3,3 +3,4 @@ torchvision==0.9.1
 torchaudio==0.8.1
 PyYAML
 matplotlib
+PySoundFile

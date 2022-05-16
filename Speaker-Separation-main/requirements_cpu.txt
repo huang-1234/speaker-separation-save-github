@@ -1,0 +1,6 @@
+torch-cpu==1.8.1
+torchvision-cpu==0.9.1
+torchaudio-cpu==0.8.1
+PyYAML
+matplotlib
+PySoundFile

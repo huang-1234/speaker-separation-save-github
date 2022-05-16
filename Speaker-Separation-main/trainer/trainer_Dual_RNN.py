@@ -41,7 +41,7 @@ class Trainer(object):
             self.device = torch.device(
                 'cuda:{}'.format(opt['train']['gpuid'][0]))
             self.gpuid = opt['train']['gpuid']
-            print('self.device', self.device)
+            # print('self.device', self.device)
             self.dualrnn = Dual_RNN.to(self.device)
             self.logger.info(
                 'Loading Dual-Path-RNN parameters: {:.3f} Mb'.format(check_parameters(self.dualrnn)))
